@@ -3,4 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="qienPaars">#640080</color>
+    <color name="qienWit">#ffffff</color>
+    <color name="qienGrijs">#f3f3f3</color>
+    <color name="qienLichtGrijs">#fafafa</color>
+    <color name="qienZwart">#000000</color>
 </resources>

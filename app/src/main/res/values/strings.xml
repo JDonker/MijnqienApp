@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">MijnQienApp</string>
+    <string name="mijnqien">MijnQien</string>
+    <string name="gewerkt">Gewerkt</string>
+    <string name="datum">datum</string>
+    <string name="opdracht">Opdracht</string>
+    <string name="overuren">overuren</string>
+    <string name="training">training</string>
+    <string name="verlof">verlof</string>
+    <string name="ziek">ziek</string>
+    <string name="overig">overig</string>
+    <string name="huidige_datum">Huidige Datum</string>
+    <string name="update">Update</string>
+    <string name="uitleg_overig">Uitleg overig</string>
+    <string name="msgOpdrachtInvullen">Opdracht invullen</string>
+    <string name="msgOverwerkInvullen">Overwerk invullen</string>
+    <string name="msgTrainingInvullen">Training invullen</string>
+    <string name="msgVerlofInvullen">Verlof invullen</string>
+    <string name="msgZiekInvullen">Ziek invullen</string>
+    <string name="msgOverigInvullen">Overig invullen</string>
+    <string name="msgOngeldigeOpdracht">Invallid request</string>
+    <string name="msgOngeldigArgument">Invalid argument</string>
+    <string name="msgAutoBestaatNiet">Car has been deleted</string>
+    <string name="msgMerkInvullen">Complete brand</string>
+    <string name="msgTypeInvullen">Complete type</string>
+    <string name="btnOk" translatable="false">Ok</string>
+    <string name="btnOpslaan" translatable="false">Update</string>
+    <string name="btnVerwijderen">Delete</string>
+    <string name="msgUPDNietsGewijzigd">Nothing changed, press cancel</string>
+    <string name="btnToevoegen">Add</string>
+    <string name="actieGeannuleerd">Request cancelled by User</string>
 </resources>

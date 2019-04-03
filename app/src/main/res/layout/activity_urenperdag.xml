@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/qienPaars"
+        >
+
+
+        <TableLayout
+            android:layout_width="233dp"
+            android:layout_height="55dp"
+            android:layout_margin="2dp"
+            android:background="@color/qienWit"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp"
+            android:padding="4dp">
+
+
+            <TableRow
+                android:id="@+id/headerrij"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/headerUPD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="4"
+                    android:textAlignment="center"
+                    android:textSize="26dp"
+                    android:background="@color/qienPaars"
+                    android:textColor="@color/qienWit"
+                    android:text="@string/huidige_datum" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rijOpdracht"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opdracht" />
+
+                <EditText
+                    android:id="@+id/edtOpdracht"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textOverwerk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/overuren" />
+
+                <EditText
+                    android:id="@+id/edtOverwerk"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+
+
+
+            <TableRow
+                android:id="@+id/rijTraining"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textTraining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/training" />
+
+                <EditText
+                    android:id="@+id/edtTraining"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textVerlof"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verlof" />
+
+                <EditText
+                    android:id="@+id/edtVerlof"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/rijZiek"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textZiek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ziek" />
+
+                <EditText
+                    android:id="@+id/edtZiek"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textOverig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/overig" />
+
+                <EditText
+                    android:id="@+id/edtOverig"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rijOveriglabel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textUitlegOverig"
+                    android:background="@color/qienPaars"
+                    android:textColor="@color/qienWit"
+                    android:layout_span="4"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uitleg_overig"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rijOverigUitleg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/edtOverigUitleg"
+                    android:layout_span="4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/rijKnop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@color/qienPaars"
+                    android:textColor="@color/qienWit"
+                    android:layout_span="2"
+                    android:text="@string/update" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@color/qienPaars"
+                    android:textColor="@color/qienWit"
+                    android:layout_span="2"
+                    android:text="Cancel" />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
